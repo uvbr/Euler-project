@@ -1,13 +1,19 @@
-def problem10(n):
-    if n < 2: return "Neither prime, nor composite"
-    for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-            return False
-    return True
 
-sum = 0
-for i in range(2, 2000000):
-    if problem10(i):
-        sum += i
 
-print (sum)
+
+def problem_10(n):
+	sum=0
+	l=[]
+	for i in range(1,int(n)):
+	    for j in range(2,(i+1)):
+	        if i%j==0:
+	            if i==j:
+	                # print(i)
+	                sum=sum+i
+	                l.append(i)
+	                
+	            break
+	print sum
+	print l
+
+problem_10(2000000)
