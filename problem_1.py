@@ -1,16 +1,21 @@
-# If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9.
-# The sum of these multiples is 23.
 
-# Find the sum of all the multiples of 3 or 5 below 1000.
+"""The sum of all the multiples of 3 or 5 below 1000."""
 
-def Solution_1(number):
-	sum=0
-	l=[]
-	for i in range(1,number):
 
-		if i%3==0 or i%5 ==0:
-			sum=sum+i
-			l.append(i)
+def function_foo(number):
 
-	print sum
-Solution_1(1000) 
+    """List all the natural numbers below 10 that are multiples of3 or 5.
+    we get 3, 5, 6 and 9.The sum of these multiples is 23.
+    Find the sum of all the multiples of 3 or 5 below 1000.
+
+    """
+
+    j = 0
+    nat_ur = []
+    for i in range(1, number):
+        if i % 3 == 0 or i % 5 == 0:
+            j = j + i
+            nat_ur.append(i)
+    print j
+
+function_foo(1000)
