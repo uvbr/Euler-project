@@ -21,3 +21,4 @@ verify_firstname_greaterthan_25_characters
     ${gjhghj}    kjkk.tbb_one    gjhghj    gjg    gjhgj
     ${hkhk}    kjkk.tbb_one    hkhk    hj    g
     Log    print ${y}    level=WARN
+    ${hkhk}    kjkk.tbb_one
