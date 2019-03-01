@@ -8,7 +8,7 @@ Library        helloworld    WITH NAME    kjkk
 verify_firstname_greaterthan_25_characters
     ${x}    Set Variable    1
     : For    ${i}    IN RANGE    0    ${x}
-    \    Log    printing 0 to 1    level=INFO
+    \    Log    print 0 to 1    level=INFO
     \    Log    end for    level=INFO
     &{dict1}    Create Dictionary    name=siva    project=sapphire
     ${x}    Evaluate    1*2
