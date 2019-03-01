@@ -1,6 +1,6 @@
 *** Settings ***
 Library        BuiltIn
-Library        helloworld    WITH NAME    kjkk
+Library        helloworld    WITH NAME    kjk
 
 *** Variables ***
 
