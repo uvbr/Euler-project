@@ -22,4 +22,4 @@ verify_firstname_greaterthan_25_characters
     ${hkhk}    kjkk.tbb_one    hkhk    hj    g
     ${asa}    kjkk.tbb_one    asa    hghjg    jgjh
     &{dict1}    Create Dictionary    name=flas    sa=sa
-    ${gjhg}    Set Variable    hkh
+    ${gjhg}    Set Variable    kh
